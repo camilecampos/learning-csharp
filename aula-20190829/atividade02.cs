@@ -1,6 +1,6 @@
 using System;
 namespace atividade02 {
-    class Programa {
+    public static class Programa {
         static void Main (string[] args) {
             int x;
             Console.WriteLine ("Informe um valor inteiro: ");
@@ -9,9 +9,9 @@ namespace atividade02 {
             if (x >= 0) {
                 Console.WriteLine ("Não negativo");
             } else {
-                Console.WriteLine ("Negativo")
+                Console.WriteLine ("Negativo");
             }
-            Console.ReadKey();
+            Console.ReadKey ();
         }
     }
 }
