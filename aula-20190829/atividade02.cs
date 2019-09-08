@@ -1,12 +1,12 @@
 using System;
-namespace PacotePrograma {
+namespace atividade02 {
     class Programa {
         static void Main (string[] args) {
-            int n1;
+            int x;
             Console.WriteLine ("Informe um valor inteiro: ");
             x = int.Parse (Console.ReadLine ());
 
-            if (x > 0) {
+            if (x >= 0) {
                 Console.WriteLine ("Não negativo");
             } else {
                 Console.WriteLine ("Negativo")

@@ -1,5 +1,5 @@
 using System;
-namespace PacotePrograma {
+namespace atividade01 {
     class Programa {
         static void Main (string[] args) {
             int n1;
